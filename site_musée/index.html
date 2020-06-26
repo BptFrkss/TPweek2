@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Merlin HTML/CSS template">
+    <meta name="author" content="Hasan Alibegic">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Port-en-Bessin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" async defer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+        async defer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.2/venobox.css" async defer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" async defer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        async defer>
+    <link rel="stylesheet" href="css/style.css" async defer>
+
+</head>
+
+<body>
+    <!-- <div class="loader">
+        <div class="loading"></div>
+    </div> -->
+
+    <section id="home">
+        
+        <div class="slideshow-container">
+            <div class="mySlides ">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/pebhome.jpg" >
+                <div class="text">Bienvenue en Normandie</div>
+            </div>
+
+            <div class="mySlides ">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/peb3.jpg"  >
+                <div class="text">Bienvenue en Normandie</div>
+            </div>
+
+            <div class="mySlides ">
+                
+                <div class="numbertext">3 / 3</div>
+                <img src="img/peb2.jpg" >
+                <div class="text">Bienvenue en Normandie</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+
+    <div id="navbar-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed">
+            <div class="container">
+                <a class="navbar-brand nav-external" href="#home">Port-en-Bessin vous accueille</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
+                    aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Musée</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Nos tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <section id="work" class="page">
+        <div class="container">
+            <div class="content text-center">
+                <div class="heading">
+                    <h2 class="mt-0 mb-4">Aperçu du musée</h2>
+                    <div class="border"></div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="portfolio">
+                            
+                               
+                                
+                                <ul class="items list-unstyled clearfix animated hiding mb-0"
+                                    data-animation="fadeInRight">
+                                    <li class="item branding">
+                                        <a href="img/work/1.jpg">
+                                            <img src="img/work/1.jpg" alt="">
+                                            <div class="overlay">
+                                                <span>Etiam porta</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item photography">
+                                        <a href="img/work/2.jpg">
+                                            <img src="img/work/2.jpg" alt="">
+                                            <div class="overlay">
+                                                <span>Lorem ipsum</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item branding">
+                                        <a href="img/work/3.jpg">
+                                            <img src="img/work/3.jpg" alt="">
+                                            <div class="overlay">
+                                                <span>Vivamus quis</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="item photography">
+                                        <a href="img/work/4.jpg">
+                                            <img src="img/work/4.jpg" alt="">
+                                            <div class="overlay">
+                                                <span>Donec ac tellus</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                                <a href="musee.html"> Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about" class="page">
+        <div class="container">
+            <div class="content text-center">
+                <div class="heading">
+                    <h2 class="mt-0 mb-4">Nos formules et tarifs</h2>
+                    <div class="border"></div>
+                    <p class="mt-4 mb-0"></p>
+                </div>
+                <div class="row">
+                    <table border="1" align="center">
+                        <tr>
+                            <th> </th>
+                            <th>Musée</th>
+                            <th>Sortie en bateau</th>
+                            <th>Musée & Sortie en bateau</th>
+                        </tr>
+                        <tr>
+                            <th>Tarif standard</th>
+                            <td> 12€</td>
+                            <td> 24€</td>
+                            <td> 32€</td>
+                        </tr>
+                        <tr>
+                            <th>Tarif senior (+60ans)</th>
+                            <td> 10€</td>
+                            <td> 20€</td>
+                            <td> 25€</td>
+                        </tr>
+                        <tr>
+                            <th>Tarif junior (-16ans)</th>
+                            <td> 10€</td>
+                            <td> 20€</td>
+                            <td> 25€</td>
+                        </tr>
+                        <tr>
+                            <th>Tarif groupes (10 personnes min)</th>
+                            <td> 8€</td>
+                            <td> 18€</td>
+                            <td> 20€</td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div>
+                    <a class="nav-link" href="#contact">Réservation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="page ">
+        <div class="container">
+            <div class="content cover text-center">
+                <div class="heading">
+                    <h2 class="mt-0 mb-4">Nous contacter</h2>
+                    <div class="border"></div>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Réserver
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Réservation</h5>
+
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <form>
+                                        <p>Veuillez saisir le nom pour la réservation: <input type="text"
+                                                placeholder="Nom pour la réservation" id="nomResa" value="" /> </p>
+                                        <br>
+                                        <p>Nombre au tarif standard
+                                            <select size="1">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                            </select>
+                                        </p>
+                                        <br>
+                                        <p>Nombre au tarif junior/senior
+                                            <select size="1">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                            </select>
+                                        </p>
+                                        <br>
+                                        <p>Nombre au tarif groupe :
+                                            <input type="text" placeholder="" id="nom" value="" />
+                                        </p>
+                                        <br>
+                                        <div class="nativeDatePicker">
+                                            <label for="bday">Veuillez saisir la date de la réservation :</label>
+                                            <input type="date" id="dateResa" name="dateResa">
+                                            <span class="validity"></span>
+                                        </div>
+
+
+                                        <br>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal">
+                                            Réserver
+                                        </button>
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 animated hiding" data-animation="fadeInRight" data-delay="600">
+                        <i class="fa fa-map-marker fa-3x"></i>
+                        <a
+                            href="https://www.google.com/maps/place/14520+Port-en-Bessin-Huppain/@49.3387612,-0.8076929,13z/data=!3m1!4b1!4m5!3m4!1s0x480baa3c3cf3aeaf:0x40c14484fbce0a0!8m2!3d49.3373658!4d-0.7719714">Port-en-Bessin</a>
+                    </div>
+                    <div class="col-sm-4 animated hiding" data-animation="fadeInDown" data-delay="300">
+                        <i class="fa fa-phone fa-3x"></i>
+                        <a href="tel:9876543210">+33 2 31 58 74 32</a>
+                    </div>
+                    <div class="col-sm-4 animated hiding" data-animation="fadeInLeft" data-delay="600">
+                        <i class="fa fa-envelope fa-3x"></i>
+                        <a href= "mailto: info.reservation@gmail.com">info.reservation@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 animated hiding" data-animation="fadeInUp">
+                    <ul class="social list-inline">
+                        <li class="list-inline-item">
+                            <a class="facebook" href="http://www.facebook.com" title="Facebook">
+                                <i class="fa fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="twitter" href="http://www.twitter.com" title="Twitter">
+                                <i class="fa fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="google-plus" href="http://www.plus.google.com" title="Google+">
+                                <i class="fa fa-google-plus fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="dribbble" href="http://www.linkedin.com" title="Dribbble">
+                                <i class="fa fa-dribbble fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright">
+                        Created by <a href="http://halibegic.info">halibegic</a> &middot; modified by Toto &middot; Code
+                        licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a>
+                        &middot; Based on
+                        <a href="http://getbootstrap.com/">Bootstrap v4</a> &middot; Icons by <a
+                            href="http://fontawesome.io/">Font Awesome</a> &middot;
+                        <a href="http://www.github.com/halibegic/merlin">GitHub</a> &middot;
+                        <a href="http://steamcommunity.com/id/halibegic">Buy Me a Game</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.8.2/venobox.min.js"></script>
+    <script src="js/script.js?v=1.0"></script>
+    <!-- Google Analytics: change UA-25089888-9 to be your site's ID. -->
+    <!-- <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+            e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-25089888-9'); ga('send', 'pageview');
+    </script> -->
+</body>
+
+</html>
